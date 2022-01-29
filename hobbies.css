@@ -1,0 +1,29 @@
+main{
+    justify-content: center;
+}
+.cali{
+    display: inline-block;
+    padding: 0 60px;
+}
+.music{
+    display: inline-block;
+    padding: 0 60px;
+}
+.coding{padding: 0 5px;
+    display: inline-block;
+    padding: 0 60px;
+}
+.read{
+    display: inline-block;
+    padding: 0 70px;
+}
+.cali h2{
+    text-align: center;
+}
+.music h2{
+    text-align: center;
+}.coding h2{
+    text-align: center;
+}.read h2{
+    text-align: center;
+}

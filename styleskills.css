@@ -1,0 +1,111 @@
+
+main{
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+h1{
+    text-decoration:;
+}
+.skills-bar{
+    width: 600px;
+    background: #fff;
+    padding: 25px 30px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.skills-bar .bar{
+    margin: 20px 0;
+}
+.skills-bar .bar:first-child{
+    margin-top: 0px;
+}
+.skills-bar .bar .info{
+    margin-bottom: 5px;
+}
+.skills-bar .bar .info span{
+    font-size: 17x;
+    font-weight: 500;
+}
+.skills-bar .bar .progress-line{
+    position:relative;
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    transform: scalex(0);
+    transform-origin: left;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05S),
+                      0px 1px rgba(225,225,225,0.05S);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line span{
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    background: #ea526f;
+    border-radius:10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line span::before{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #f0f0f0;}
+@keyframes animate {
+    100%{
+        transform:scaleX(1);
+    }
+}
+}
+.progress-line.html span}{
+    width:80%;
+
+}
+.progress-line.css span{
+    width:70%;
+}
+.progress-line.python span{
+    width:80%;
+}
+.progress-line.c span{
+    width:50%;
+    }
+.progress-line.mysql span{
+    width:70%;
+
+}
+.bar .progress-line span::after{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -28px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background: #000;
+    padding: 1px 8px;
+    border-radius: 3px;
+}
+.progress-line.html span::after{
+    content: "80%";
+
+}
+.progress-line.css span::after{
+    content: "70%";
+}.progress-line.python span::after{
+    content: "80%";
+
+}.progress-line.c span::after{
+    content: "50%";
+    
+}.progress-line.mysql span::after{
+    content: "70%";
+
+}
